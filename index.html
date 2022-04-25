@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>Movie Review</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap" rel="stylesheet">
@@ -24,20 +24,20 @@
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Tindog</a>
+        <a class="navbar-brand" style="color: black;" href="">Movie Reviews</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="">Review</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="">Trailer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="">Celebrity</a>
             </li>
           </ul>
         </div>
@@ -48,13 +48,13 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
+          <h1 class="big-heading red">Watch great movies everytime!</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
-        <div class="col-lg-6">
-          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
-        </div>
+        <!-- <div class="col-lg-6">
+          <img class="title-img" src="images/movie-reviews-isolated-on-special-260nw-1152605072.webp" alt="iphone-mockup">
+        </div> -->
       </div>
     </div>
   </section>
@@ -65,20 +65,20 @@
   <section id="features">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 gap center">
+        <div class="col-lg-4 gap center ">
           <i class="fas fa-check-circle red fa-4x"></i>
-          <h3>Easy to use.</h3>
-          <p class="desc">So easy to use, even your dog could do it.</p>
+          <h3>Easy to use</h3>
+          <p class="desc">So easy to use, anyone could rate a movie</p>
         </div>
-        <div class="col-lg-4 gap center">
+        <div class="col-lg-4 gap center ">
           <i class="fas fa-bullseye red fa-4x "></i>
-          <h3>Elite Clientele</h3>
-          <p class="desc">We have all the dogs, the greatest dogs.</p>
+          <h3>Get movie details</h3>
+          <p class="desc">Decide which movie to watch</p>
         </div>
         <div class="col-lg-4 gap center">
           <i class="fas fa-heart red fa-4x"></i>
-          <h3>Guaranteed to work.</h3>
-          <p class="desc">Find the love of your dog's life or your money back.</p>
+          <h3>Box Office Hits</h3>
+          <p class="desc">Know the all-time hits</p>
         </div>
       </div>
     </div>
@@ -92,14 +92,22 @@
       <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-            <em>Pebbles, New York</em>
+            <h3 class="testimonial-text">Jersey:
+              A Beautiful rollercoaster of emotions
+              Take away a man's passion, watch a living skeleton...
+            </h3>
+            <img class="testimonial-image" src="images\man-profile-cartoon_18591-58482.webp" alt="dog-profile">
+            <em>Akash, Delhi</em>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <h3 class="testimonial-text">India’s wild action movie RRR re-imagines real-life revolt as an epic superhero battle</h3>
             <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em>Beverly, Illinois</em> -->
+            <em>Riya, Mumbai</em>
+          </div>
+          <div class="carousel-item">
+            <h3 class="testimonial-text">'KGF: Chapter 2' Review: A terrific Yash powers an explosive sequel</h3>
+            <img class="testimonial-image" src="images/man-5199227_960_720.webp" alt="lady-profile">
+            <em>Sunil, Bangalore</em>
           </div>
         </div>
         <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
@@ -119,93 +127,36 @@
   </section>
 
 
-  <!-- Press -->
-
-  <section id="press">
-    <div class="container">
-
-
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-    </div>
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section id="pricing">
-    <div class="container">
-
-
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-      <div class="row">
-
-        <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
-            <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div>
-            <div class="card-body">
-              <h2>Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="pricing-column col-lg-4  col-md-6 col-sm-12">
-          <div class="card">
-            <div class="card-header">
-              <h3>Labrador</h3>
-            </div>
-            <div class="card-body">
-              <h2>$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Sign Up</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="pricing-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3>Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2>$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Sign Up</button>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-  </div>
-  </section>
-
 
   <!-- Call to Action -->
 
-
-
   <section id="cta">
     <div class="container">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3>Write your review</h3>
+      <form class="row g-3 form_prop">
+        <div class="col-md-4">
+          <label for="User_name" class="form-label">Your name:</label><br>
+          <input type="text" id="User_name" name="User_name" class="form-control">
+        </div>
+        <div class="col-md-4">
+          <label for="Mname" class="form-label">Movie Name:</label>
+          <input type="text" id="mname" name="mname" class="form-control">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCity" class="form-label">City:</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="">
+          <label for="review" class="form-label">Review:</label>
+          <textarea id="review" name="review" rows="4" cols="50" class="form-control">  </textarea>
+        </div>
+
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+
     </div>
   </section>
 
@@ -213,8 +164,13 @@
   <!-- Footer -->
 
   <footer id="footer">
+    <div class="container">
+      <i class="fab fa-twitter social-icons fa-2x"></i>
+      <i class="fab fa-facebook social-icons fa-2x"></i>
+      <i class="fab fa-instagram social-icons fa-2x"></i>
+      <i class="fas fa-envelope social-icons fa-2x"></i>
 
-    <p>© Copyright TinDog</p>
+    </div>
 
   </footer>
 
