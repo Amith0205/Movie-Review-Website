@@ -3,6 +3,7 @@
   /* background-color: #f91438; */
   background-image:url("../images/output-onlinepngtools.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: #f91438;
 }
